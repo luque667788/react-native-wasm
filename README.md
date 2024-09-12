@@ -2,7 +2,7 @@
 
 This project is a React Native app built using the Expo framework/platform. It serves as a minimal working example codebase for importing Rust code compiled with WebAssembly (Wasm) to React Native apps.
 
-## Project High Level Overview
+### Project High Level Overview
 
 - Proof of concept app showcasing the integration of Rust Wasm with React Native.
 - Utilizes the wasm2js tool to facilitate the import Wasm from React Native (see [this](https://rustwasm.github.io/wasm-bindgen/examples/wasm2js.html) example from wasm-bindgen documentation).
@@ -10,7 +10,7 @@ This project is a React Native app built using the Expo framework/platform. It s
 - Compiles the Rust Wasm code using wasm-pack.
 
 
-## Getting Started
+### Running the Project
 
 1. Ensure that you have all the necessary dependencies for React Native and Android SDK installed.
 2. Run the `wasm/build.sh` script to recompile the Wasm code whenever needed (no hot reload for Wasm).
@@ -19,7 +19,7 @@ This project is a React Native app built using the Expo framework/platform. It s
 
 
 
-
+### Conclusion
 
 This project serves as a reference and example for those looking to port performance or security-critical parts of their code to Rust while maintaining a platform-agnostic design using WebAssembly (Wasm).
 
