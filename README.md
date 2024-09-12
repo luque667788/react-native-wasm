@@ -17,6 +17,10 @@ This project is a React Native app built using the Expo framework/platform. It s
 3. To first run the app, execute `sh wasm/build.sh` followed by `npx expo start`.
 
 
+
+
+
+
 This project serves as a reference and example for those looking to port performance or security-critical parts of their code to Rust while maintaining a platform-agnostic design using WebAssembly (Wasm).
 
 Please note that familiarity with React Native, Rust, and the Expo framework/platform is assumed.
