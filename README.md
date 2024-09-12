@@ -5,7 +5,7 @@ This project is a React Native app built using the Expo framework/platform. It s
 ## Project High Level Overview
 
 - Proof of concept app showcasing the integration of Rust Wasm with React Native.
-- Utilizes the wasm2js tool to facilitate the import Wasm from React Native (see [this]https://rustwasm.github.io/wasm-bindgen/        examples/wasm2js.html) example from wasm-bindgen documentation).
+- Utilizes the wasm2js tool to facilitate the import Wasm from React Native (see [this]https://rustwasm.github.io/wasm-bindgen/examples/wasm2js.html) example from wasm-bindgen documentation).
 - Uses wasm-bindgen for the integration between Rust and JavaScript.
 - Compiles the Rust Wasm code using wasm-pack.
 
